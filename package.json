@@ -1,0 +1,25 @@
+{
+  "name": "scniro-validator",
+  "version": "1.0.0",
+  "description": "a simple email validator with corrective action capabilities",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scniro/scniro-validator.git"
+  },
+  "author": "scniro <salvatore.niro@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scniro/scniro-validator/issues"
+  },
+  "homepage": "https://github.com/scniro/scniro-validator#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha test.js --reporter spec"
+  }
+}

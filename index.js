@@ -25,7 +25,7 @@ function CorrectiveValidator() {
 
         _config.tld.corrections.forEach(function (e, i) {
 
-            var regex = new RegExp(e.match + '$'); // exact end of string via "$"
+            var regex = new RegExp(e.match + '$', 'i'); // exact end of string via "$"
 
             if (input.match(regex)) {
                 transformed = input.replace(regex, e.correct)

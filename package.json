@@ -1,6 +1,6 @@
 {
   "name": "scniro-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple email validator with corrective action capabilities",
   "main": "index.js",
   "repository": {
